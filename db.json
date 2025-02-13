@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "name": "Parag Joshi",
+      "email": "paragj@gmail.com",
+      "phone": 8383883838,
+      "id": "1"
+    },
+    {
+      "name": "Prachi Moghe",
+      "email": "prachim@yahoo.com",
+      "phone": 5383886848,
+      "id": "2"
+    },
+    {
+      "name": "Manas Joshi",
+      "email": "manasj@gmail.com",
+      "phone": 8888888888,
+      "id": "3"
+    },
+    {
+      "name": "Daesha",
+      "email": "dj@yahoo.com",
+      "phone": 3456778654,
+      "id": "4"
+    },
+    {
+      "name": "Swati Dubey",
+      "email": "sd@yahoo.com",
+      "phone": 8099978787,
+      "id": "5"
+    },
+    {
+      "id": "e6a7",
+      "name": "Prakash",
+      "email": "pr@gmail.com",
+      "phone": "8467828222"
+    }
+  ]
+}
