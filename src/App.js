@@ -1,19 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Profile from './Profile';
-import Productlist from './Productlist';
-import ShowUser from './ShowUser';
 import CreateUser from './components/CreateUser';
+import EditUser from './components/EditUser';
+import ShowUser from './components/ShowUser';
+import ProductList from './ProductList';
+import Profile from './Profile';
+import {Route, Routes} from "react-router-dom"
 
 function App() {
   return (
     <div>
-      {/* <Profile/>
-      <Productlist/> */}
-      <ShowUser/>
-      <CreateUser/>
-    </div>
-  );
-}
+      <h1>User Management System</h1>
+      <Routes>
+        <Route path="/" element={<ShowUser/>}/>
+        <Route path="/edit-user/:id" element={<EditUser/>}/>
+        <Route path="/create-user" element={<CreateUser/>}/>
+        <Route path="/show-user" element={<ShowUser/>}/>
+       </Routes>
+       </div>)}
 
-export default App;
+export default App
